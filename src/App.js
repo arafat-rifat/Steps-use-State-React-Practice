@@ -20,7 +20,7 @@ function App() {
    
   const handleCloseButton = function () {
    
-      setIsOpen(!isOpen);
+      setIsOpen((currentOpen) => !currentOpen);
   
   }
 
